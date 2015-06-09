@@ -1,0 +1,9 @@
+          <div id="{{ view_id }}" class="image">
+            <div id="pictures" class="row">
+              <img ng-src="img/{{ showcase.slug }}/{{ image.slug }}.jpg" alt="{{ image.title }}" title="{{ image.title }}">
+              <div>
+                  <h3 ng-bind="image.title"></h3>
+                  <span ng-bind-html="image.description"></span>
+              </div>
+            </div>
+          </div>

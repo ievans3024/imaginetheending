@@ -1,0 +1,677 @@
+{
+  "showcases": {
+    "illustration": {
+      "images": {
+        "evelyna": {
+          "slug": "evelyna",
+          "title": "Evelyna",
+          "description": "Illustration drawn of character Evelyna from <a href=\"/Vacant/\">VACANT</a>. First it was sketched by pencil and then colored in Photoshop. This was drawn for it's Kickstarter a while back.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "touche": {
+          "slug": "touche",
+          "title": "Touche",
+          "description": "Illustration drawn of characters Rapture and Mourning from <a href=\"/Vacant/\">VACANT</a>. First it was sketched by pencil and then colored in Photoshop. It took 13 days to complete.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "hayren": {
+          "slug": "hayren",
+          "title": "Hayren",
+          "description": "A picture of the first shipping ever in <a href=\"/Vacant/\">VACANT</a>. This is Siren and Hayze. Their ship name is Hayren, and it was started by Elena.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "illegalcover01": {
+          "slug": "illegalcover01",
+          "title": "Illegal Issue 01 Cover",
+          "description": "Cover for a comic called Illegal written by Jeremy Whitley and drawn by Heather Nunnelly.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "elisawriting": {
+          "slug": "elisawriting",
+          "title": "Elisa Writing",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "elisadoingyoga": {
+          "slug": "elisadoingyoga",
+          "title": "Elisa Doing Yoga",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "silentforest": {
+          "slug": "silentforest",
+          "title": "Silent Forest",
+          "description": "Illustration painted in Photoshop for webcomic <a href=\"/Vacant/\">VACANT</a>. The character in the foreground is named Siren, and the character in the background is named Reed. All characters belong to Heather Nunnelly.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "imsorry": {
+          "slug": "imsorry",
+          "title": "I'm Sorry",
+          "description": "Illustration of Bioshock Infinite characters DeWitt and Elizabeth. First, it was penciled and inked on bistrol paper, and then scanned to be shaded in Photoshop.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "serpentking": {
+          "slug": "serpentking",
+          "title": "Serpent King",
+          "description": "A character design from <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "steppedinfrozen": {
+          "slug": "steppedinfrozen",
+          "title": "Stepped In Frozen",
+          "description": "Illustration sketched in pencil and then colored in Photoshop. This was drawn for class. The assignment was to illustrate a concept design for a character in winter clothing.",
+          "buy_link": {
+            "uri": "http://www.etsy.com/listing/128321480/stepped-in-frozen?ref=shop_home_active",
+            "prompt": "Buy Print"
+          }
+        },
+        "obsessed": {
+          "slug": "obsessed",
+          "title": "Obsessed",
+          "description": "Illustration sketched in pencil and then colored in Photoshop. This was drawn for class. The assignment was to illustrate a domestic act reinterpreted in a science fiction setting. I chose watching TV.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/71829350/obsessed?ref=shop_home_active",
+            "prompt": "Buy Print"
+          }
+        },
+        "kneedeep": {
+          "slug": "kneedeep",
+          "title": "Knee Deep",
+          "description": "Illustration sketched in pencil and then colored in Photoshop. This was drawn for class. The assignment was to illustrate a concept design for a snowy environment.",
+          "buy_link": {
+            "uri": "http://www.etsy.com/listing/128321251/knee-deep?ref=shop_home_active",
+            "prompt": "Buy Print"
+          }
+        },
+        "hayzeredborn": {
+          "slug": "hayzeredborn",
+          "title": "Hayze Redborn",
+          "description": "Detailed character sheet of Hayze Redborn from <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "thevirgin": {
+          "slug": "thevirgin",
+          "title": "The Virgin",
+          "description": "A pin up done for Nick Marino's comic, <a href=\"http://holyfckcomic.tumblr.com/\">Holy F*ck.</a>",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "inceptioncoverentry": {
+          "slug": "inceptioncoverentry",
+          "title": "Inception Cover Entry",
+          "description": "Illustration sketched in pencil and then water colored. This was drawn for the Inception Deviantart contest.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "theforgottenone": {
+          "slug": "theforgottenone",
+          "title": "The Forgotten One",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "hayze": {
+          "slug": "hayze",
+          "title": "Hayze",
+          "description": "Illustration drawn of character Hayze from <a href=\"/Vacant/\">VACANT</a>. First it was sketched by pencil and then colored in Photoshop. This was drawn for it's Kickstarter a while back.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "atfirstsight": {
+          "slug": "atfirstsight",
+          "title": "At First Sight",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "byyourwindow": {
+          "slug": "byyourwindow",
+          "title": "By Your Window",
+          "description": "Illustration drawn for the Tomb Raider Deviantart contest. Was sketched by pencil and scanned to be colored in Photoshop. The character is Lara Croft.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "monk": {
+          "slug": "monk",
+          "title": "Monk",
+          "description": "Edwin Huang's character for his art book. Inks are by him. Pencils and colors are by me.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "gunweilder": {
+          "slug": "gunweilder",
+          "title": "Gun Weilder",
+          "description": "Emma from Illegal, a comic written by Jeremy Whitley and drawn by Heather Nunnelly.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "vapor": {
+          "slug": "vapor",
+          "title": "Vapor",
+          "description": "Illustration sketched in pencil and then colored in Photoshop. This was drawn for class. The assignment was to illustrate a book cover. This was later published on the cover of the book Muscle Memory.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/72027796/vapor?ref=shop_home_active",
+            "prompt": "Buy Print"
+          }
+        },
+        "madtogether": {
+          "slug": "madtogether",
+          "title": "Mad Together",
+          "description": "Ellie and Riley from the video game The Last of Us produced by Naughty Dog.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "crimsonsheets": {
+          "slug": "crimsonsheets",
+          "title": "Crimson Sheets",
+          "description": "Illustration drawn of character Hayze from <a href=\"/Vacant/\">VACANT</a>. First it was sketched by pencil and then colored in Photoshop.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        }
+      },
+      "slug": "illustration",
+      "title": "Illustration",
+      "sections": [
+        {
+          "images": [
+            "elisadoingyoga",
+            "elisawriting",
+            "theforgottenone",
+            "atfirstsight",
+            "thevirgin",
+            "hayzeredborn",
+            "gunweilder",
+            "serpentking",
+            "illegalcover01",
+            "madtogether",
+            "hayren",
+            "monk",
+            "evelyna",
+            "imsorry",
+            "byyourwindow",
+            "touche",
+            "silentforest",
+            "crimsonsheets",
+            "hayze",
+            "kneedeep",
+            "steppedinfrozen",
+            "obsessed",
+            "inceptioncoverentry",
+            "vapor"
+          ],
+          "slug": "",
+          "col_widths": {
+            "md": 3,
+            "xs": 3,
+            "lg": 2,
+            "sm": 3
+          },
+          "title": null,
+          "large_thumbs": false
+        }
+      ],
+      "default": true
+    },
+    "storyboards": {
+      "images": {
+        "scene03": {
+          "slug": "scene03",
+          "title": "Scene 03",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "scene02": {
+          "slug": "scene02",
+          "title": "Scene 02",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "scene01": {
+          "slug": "scene01",
+          "title": "Scene 01",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "scene04": {
+          "slug": "scene04",
+          "title": "Scene 04",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        }
+      },
+      "slug": "storyboards",
+      "title": "Storyboards",
+      "sections": [
+        {
+          "images": [
+            "scene04",
+            "scene03",
+            "scene02",
+            "scene01"
+          ],
+          "slug": "",
+          "col_widths": {
+            "md": 6,
+            "xs": 6,
+            "lg": 6,
+            "sm": 6
+          },
+          "title": null,
+          "large_thumbs": true
+        }
+      ],
+      "default": false
+    },
+    "sequential": {
+      "images": {
+        "MP03": {
+          "slug": "MP03",
+          "title": "Missing Pieces Page 03",
+          "description": "Penciled, inked, and valued by me. Lettering is from John Burton.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I06P29": {
+          "slug": "I06P29",
+          "title": "VACANT ISSUE 6 PAGE 29",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "blackthorneandcora": {
+          "slug": "blackthorneandcora",
+          "title": "Blackthorne and Cora",
+          "description": "Pencils are by James Beihl. This was a commissioned pin up peice of a cover for his comic.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I03P08": {
+          "slug": "I03P08",
+          "title": "VACANT ISSUE 3 PAGE 08",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/109744554/vacant-issue-3?ref=shop_home_active",
+            "prompt": "Buy Issue 3"
+          }
+        },
+        "I01P01": {
+          "slug": "I01P01",
+          "title": "VACANT ISSUE 1 PAGE 01",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/109743246/vacant-issue-1?ref=shop_home_active",
+            "prompt": "Buy Issue 1"
+          }
+        },
+        "I06P28": {
+          "slug": "I06P28",
+          "title": "VACANT ISSUE 6 PAGE 28",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "flashgordon": {
+          "slug": "flashgordon",
+          "title": "Flash Gordon",
+          "description": "Pencils are by V Ken Marion. This was a commissioned pin up peice of Flash Gordon.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I04P08": {
+          "slug": "I04P08",
+          "title": "VACANT ISSUE 4 PAGE 08",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I05P01": {
+          "slug": "I05P01",
+          "title": "VACANT ISSUE 5 PAGE 01",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I02P17": {
+          "slug": "I02P17",
+          "title": "VACANT ISSUE 2 PAGE 17",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/113858449/vacant-issue-2?ref=shop_home_active",
+            "prompt": "Buy Issue 2"
+          }
+        },
+        "I04P19": {
+          "slug": "I04P19",
+          "title": "VACANT ISSUE 4 PAGE 19",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I03P03": {
+          "slug": "I03P03",
+          "title": "VACANT ISSUE 3 PAGE 03",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/109744554/vacant-issue-3?ref=shop_home_active",
+            "prompt": "Buy Issue 3"
+          }
+        },
+        "I02P16": {
+          "slug": "I02P16",
+          "title": "VACANT ISSUE 2 PAGE 16",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/113858449/vacant-issue-2?ref=shop_home_active",
+            "prompt": "Buy Issue 2"
+          }
+        },
+        "WIP12": {
+          "slug": "WIP12",
+          "title": "What If Page 12",
+          "description": "Comic I did for Thesis year of college. It's an Interpretation of Hansel and Gretel.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I03P02": {
+          "slug": "I03P02",
+          "title": "VACANT ISSUE 3 PAGE 02",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/109744554/vacant-issue-3?ref=shop_home_active",
+            "prompt": "Buy Issue 3"
+          }
+        },
+        "I04P06": {
+          "slug": "I04P06",
+          "title": "VACANT ISSUE 4 PAGE 06",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "WIP01": {
+          "slug": "WIP01",
+          "title": "What If Page 01",
+          "description": "Comic I did for Thesis year of college. It's an Interpretation of Hansel and Gretel.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I04P11": {
+          "slug": "I04P11",
+          "title": "VACANT ISSUE 4 PAGE 11",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "I03P01": {
+          "slug": "I03P01",
+          "title": "VACANT ISSUE 3 PAGE 01",
+          "description": "Penciled, inked, colored and lettered by me. It is a part of the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "https://www.etsy.com/listing/109744554/vacant-issue-3?ref=shop_home_active",
+            "prompt": "Buy Issue 3"
+          }
+        }
+      },
+      "slug": "sequential",
+      "title": "Sequential Art",
+      "sections": [
+        {
+          "images": [
+            "I06P29",
+            "I06P28",
+            "I05P01",
+            "I04P19",
+            "I04P11",
+            "I04P08",
+            "I04P06",
+            "I03P08",
+            "I03P03",
+            "I03P02",
+            "I03P01",
+            "I02P17",
+            "I02P16",
+            "I01P01"
+          ],
+          "slug": "vacant",
+          "col_widths": {
+            "md": 3,
+            "xs": 3,
+            "lg": 2,
+            "sm": 3
+          },
+          "title": "VACANT &ndash; <a href=\"/Vacant/\">Read it here.</a>",
+          "large_thumbs": false
+        },
+        {
+          "images": [
+            "MP03"
+          ],
+          "slug": "missingpieces",
+          "col_widths": {
+            "md": 3,
+            "xs": 3,
+            "lg": 2,
+            "sm": 3
+          },
+          "title": "Missing Pieces",
+          "large_thumbs": false
+        },
+        {
+          "images": [
+            "WIP01",
+            "WIP12"
+          ],
+          "slug": "whatif",
+          "col_widths": {
+            "md": 3,
+            "xs": 3,
+            "lg": 2,
+            "sm": 3
+          },
+          "title": "What If",
+          "large_thumbs": false
+        },
+        {
+          "images": [
+            "flashgordon",
+            "blackthorneandcora"
+          ],
+          "slug": "coloringgigs",
+          "col_widths": {
+            "md": 3,
+            "xs": 3,
+            "lg": 2,
+            "sm": 3
+          },
+          "title": "Coloring Gigs",
+          "large_thumbs": false
+        }
+      ],
+      "default": false
+    },
+    "concept": {
+      "images": {
+        "femalecharacterconcepts": {
+          "slug": "femalecharacterconcepts",
+          "title": "Female Character Concepts",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "wintercostumes": {
+          "slug": "wintercostumes",
+          "title": "Winter Costume Ideas",
+          "description": "Ideas for a video game.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "hayzecostumes": {
+          "slug": "hayzecostumes",
+          "title": "Hayze Character Sheet",
+          "description": "Most of the costume designs for Hayze from the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "girlcostumes": {
+          "slug": "girlcostumes",
+          "title": "Girl Character Sheet",
+          "description": "Character design for story idea.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "sirencostumes": {
+          "slug": "sirencostumes",
+          "title": "Siren Character Sheet",
+          "description": "Most of the costume designs for Siren from the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "raptureconcepts": {
+          "slug": "raptureconcepts",
+          "title": "Rapture Concepts",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "vacantcostumes": {
+          "slug": "vacantcostumes",
+          "title": "Character Sheet",
+          "description": "Some of the costume designs from the webcomic series <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        }
+      },
+      "slug": "concept",
+      "title": "Concept Art",
+      "sections": [
+        {
+          "images": [
+            "femalecharacterconcepts",
+            "raptureconcepts",
+            "wintercostumes",
+            "girlcostumes",
+            "hayzecostumes",
+            "sirencostumes",
+            "vacantcostumes"
+          ],
+          "slug": "",
+          "col_widths": {
+            "md": 6,
+            "xs": 6,
+            "lg": 6,
+            "sm": 6
+          },
+          "title": null,
+          "large_thumbs": true
+        }
+      ],
+      "default": false
+    }
+  },
+  "showcase_order": [
+    "illustration",
+    "sequential",
+    "concept",
+    "storyboards"
+  ]
+}

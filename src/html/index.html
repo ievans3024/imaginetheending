@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" ng-app="imaginetheending">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Heather Nunnelly</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- css code -->
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <div id="container">
+      <div id="header" class="container-fluid">
+        <h1>Imagine The Ending</h1>
+        <h2>Heather Nunnelly</h2>
+        <div id="contact">
+        </div>
+        <div id="links">
+            <div>
+              <a href="mailto:imaginetheending@gmail.com"><img class="icon" src="img/icon/email.png" alt="E-Mail"></a>
+              <a href="https://www.facebook.com/pages/Heather-Nunnelly/299863401386"><img class="icon" src="img/icon/facebook.png" alt="Facebook"></a>
+              <a href="https://twitter.com/ImagineTEnding"><img class="icon" src="img/icon/twitter.png" alt="Twitter"></a>
+              <a href="http://www.imaginetheending.deviantart.com/"><img class="icon" src="img/icon/deviantart.png" alt="DeviantArt"></a>
+              <a href="http://imaginetheendingart.tumblr.com/"><img class="icon" src="img/icon/tumblr.png" alt="tumblr"></a>
+              <a href="https://www.behance.net/ImagineTEnding"><img class="icon" src="img/icon/behance.png" alt="Behance"></a>
+              <a href="http://imaginetheending.net/Vacant/"><img class="icon" src="img/icon/vacant.png" alt="Vacant"></a>
+            </div>
+        </div>
+        <div id="menu" class="row" ng-controller="menu">
+          <div ng-repeat="showcase in menu_order" class="col-xs-6 col-sm-{{ menu_cols | number:0 }} col-md-{{ menu_cols | number:0 }} col-lg-{{ menu_cols | number:0 }}">
+            <span ng-if="!is_image && showcase === current_showcase" ng-bind="showcases[showcase].title"></span>
+            <a ng-if="is_image || showcase !== current_showcase" ng-href="#{{ showcases[showcase].slug }}/" ng-bind="showcases[showcase].title"></a>
+          </div>
+        </div>
+      </div>
+      <div id="content" class="container-fluid">
+        <div ng-view></div>
+        <div id="footer" ng-controller="footer">&copy; Heather Nunnelly 2010 &ndash; {{ date | date : 'yyyy' }}</div>
+      </div>
+    </div>
+
+  <!-- libraries -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <!-- code -->
+  <script src="js/app.min.js"></script>
+</body>
+<!--
+  Written for Heather Nunnelly by Ian Evans linkedin.com/in/ievans3024
+-->
+</html>

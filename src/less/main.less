@@ -1,0 +1,302 @@
+/*!
+ * Written for Heather Nunnelly
+ * by Ian Evans linkedin.com/in/ievans3024
+ */
+
+/*
+ * General
+ */
+
+html {
+  font-family: Geneva,Arial,Helvetica,sans-serif;
+}
+
+body {
+  background-color: #111112;
+}
+
+@media (max-width: 767px) {
+  #container, #header {
+    width: auto;
+  }
+
+  body.showcase #pictures #a #img {
+    width: 108px; /* static width in auto */
+  }
+}
+
+@media (min-width: 768px) {
+  #container, #header {
+    width: 660px; /* 3 columns */
+  }
+}
+
+@media (min-width: 992px) {
+  #container, #header {
+    width: 880px; /* 4 columns */
+  }
+}
+
+@media (min-width: 1200px) {
+  #container, #header {
+    width: 1100px; /* 5 columns */
+  }
+}
+
+@media (min-width: 1400px) {
+  #container, #header {
+    width: 1320px; /* 6 columns */
+  }
+}
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  z-index: 1;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: #333333;
+}
+
+#header h1 {
+  color: #999999;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding: .5em;
+  margin: 0;
+}
+
+#header h2 {
+  color: #CCCCCC;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: none;
+  padding: .5em;
+  margin: 0;
+}
+
+#header #links {
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#header #contact {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#header #links div {
+  text-align: center;
+  margin: 0 auto;
+  width: 320px;
+}
+
+#header #contact a,
+#header #links a {
+  margin: 0;
+  padding: 0;
+}
+
+#header #links a {
+  width: 40px;
+  height: 40px;
+}
+
+#content {
+  position: relative;
+  top: 202px;
+  background-color: #000000;
+}
+
+#menu {
+  background-color: #585858;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+}
+
+#menu >div {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 9px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#menu >div a {
+  color: #9AADB3;
+  text-decoration: none;
+}
+
+#menu >div a:hover {
+  color: #ffffff;
+}
+
+#footer {
+  padding: 9px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.icon {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.icon-sm {
+  width: 30px;
+  vertical-align: middle;
+}
+
+/*
+ * Bootstrap theme overrides
+ */
+
+.btn.btn-primary {
+  background: #0a0a0a;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+
+/*
+ * Image pages
+ */
+
+.image #pictures {
+  text-align: center;
+}
+
+.image #pictures img {
+  max-width: 100%;
+}
+
+.image #pictures div {
+  width: 100%;
+  box-sizing: border-box;
+  color: #999;
+  background-color: #666;
+  text-align: left;
+  padding: 2em;
+}
+
+.image #pictures div a {
+  color: #9aadb3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.image #pictures div a:hover {
+  color: #ffffff;
+}
+
+.image #pictures div >a {
+  margin-left: 2em;
+}
+
+.image #pictures div h3 {
+  margin-left: 2em;
+  text-transform: uppercase;
+}
+
+.image #pictures div span {
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+
+/*
+ * Showcase pages
+ */
+
+.showcase #pictures {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.showcase #pictures a {
+  color: #9aadb3;
+  text-decoration: none;
+}
+
+.showcase #pictures a:hover {
+  color: #ffffff;
+}
+
+.showcase #pictures a img {
+  width: 100%;
+}
+
+
+.showcase #pictures h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.showcase #pictures h3 a {
+  color: #9aadb3;
+  text-decoration: none;
+}
+
+.showcase #pictures h3 a:hover {
+  color: #ffffff;
+}
+
+.showcase #pictures .col-xs-1,
+.showcase #pictures .col-xs-2,
+.showcase #pictures .col-xs-3,
+.showcase #pictures .col-xs-4,
+.showcase #pictures .col-xs-5,
+.showcase #pictures .col-xs-6,
+.showcase #pictures .col-xs-7,
+.showcase #pictures .col-xs-8,
+.showcase #pictures .col-xs-9,
+.showcase #pictures .col-xs-10,
+.showcase #pictures .col-xs-11,
+.showcase #pictures .col-xs-12,
+.showcase #pictures .col-sm-1,
+.showcase #pictures .col-sm-2,
+.showcase #pictures .col-sm-3,
+.showcase #pictures .col-sm-4,
+.showcase #pictures .col-sm-5,
+.showcase #pictures .col-sm-6,
+.showcase #pictures .col-sm-7,
+.showcase #pictures .col-sm-8,
+.showcase #pictures .col-sm-9,
+.showcase #pictures .col-sm-10,
+.showcase #pictures .col-sm-11,
+.showcase #pictures .col-sm-12,
+.showcase #pictures .col-md-1,
+.showcase #pictures .col-md-2,
+.showcase #pictures .col-md-3,
+.showcase #pictures .col-md-4,
+.showcase #pictures .col-md-5,
+.showcase #pictures .col-md-6,
+.showcase #pictures .col-md-7,
+.showcase #pictures .col-md-8,
+.showcase #pictures .col-md-9,
+.showcase #pictures .col-md-10,
+.showcase #pictures .col-md-11,
+.showcase #pictures .col-md-12,
+.showcase #pictures .col-lg-1,
+.showcase #pictures .col-lg-2,
+.showcase #pictures .col-lg-3,
+.showcase #pictures .col-lg-4,
+.showcase #pictures .col-lg-5,
+.showcase #pictures .col-lg-6,
+.showcase #pictures .col-lg-7,
+.showcase #pictures .col-lg-8,
+.showcase #pictures .col-lg-9,
+.showcase #pictures .col-lg-10,
+.showcase #pictures .col-lg-11,
+.showcase #pictures .col-lg-12 {
+  padding: 2px;
+}
