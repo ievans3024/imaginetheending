@@ -2,7 +2,6 @@
  * Imagine The Ending
  * The angularjs code that runs Heather Nunnelly's gallery pages.
  * @copyright Ian Evans 2015
- * @license MIT
  */
 
 'use strict';

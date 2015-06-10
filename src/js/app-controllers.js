@@ -1,4 +1,3 @@
-'use strict';
 
 angular.module(
   'imaginetheending.showcase',
@@ -33,7 +32,7 @@ angular.module(
             templateUrl: 'templates/image.html',
             controller: 'image'
           }
-      )
+        );
     }
   ]
 )
@@ -104,7 +103,7 @@ angular.module(
             sections = $scope.showcase.sections;
             for (i; i < sections.length; i++) {
               if (sections[i].title) {
-                sections[i].title = $sce.trustAsHtml(sections[i].title)
+                sections[i].title = $sce.trustAsHtml(sections[i].title);
               }
             }
           }

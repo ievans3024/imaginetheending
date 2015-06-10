@@ -11,6 +11,6 @@
     "uglify-js": "latest"
   },
   "scripts": {
-    "dist": "mkdir -p dist/js dist/css; cp src/html/index.html dist/; cp -r src/html/templates dist/; cp -r static/* dist/; uglifyjs src/js/app.js src/js/app-controllers.js src/js/app-services.js  --compress --mangle --comments -o dist/js/app.min.js; lessc src/less/main.less --clean-css=\"--s1\" > dist/css/main.min.css"
+    "dist": "node build.js"
   }
 }
