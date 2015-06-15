@@ -26,4 +26,14 @@ angular.module(
   .constant(
     'data_source',
     'showcases.json'
+  )
+  .filter(
+  'striphtml',
+  function () {
+    return function (input) {
+      return input.replace(
+        /(<([^>]+)>)/ig, ""  // captures anything that looks like <...> and replaces it with nothing.
+      );
+    }
+  }
   );
