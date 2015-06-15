@@ -221,6 +221,7 @@
       },
       "slug": "illustration",
       "title": "Illustration",
+      "description": "Complete illustrations by Heather Nunnelly.",
       "sections": [
         {
           "images": [
@@ -303,6 +304,7 @@
       },
       "slug": "storyboards",
       "title": "Storyboards",
+      "description": "Storyboards by Heather Nunnelly.",
       "sections": [
         {
           "images": [
@@ -500,6 +502,7 @@
       },
       "slug": "sequential",
       "title": "Sequential Art",
+      "description": "Sequential pages/strips by Heather Nunnelly.",
       "sections": [
         {
           "images": [
@@ -643,6 +646,7 @@
       },
       "slug": "concept",
       "title": "Concept Art",
+      "description": "Concepts and sketchs by Heather Nunnelly.",
       "sections": [
         {
           "images": [
