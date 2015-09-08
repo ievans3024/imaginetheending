@@ -2,6 +2,33 @@
   "showcases": {
     "illustration": {
       "images": {
+        "handsomejack": {
+          "slug": "handsomejack",
+          "title": "Handsome Jack",
+          "description": "An illustration of Handsome Jack from the Borderlands series.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "helloandwelcome": {
+          "slug": "helloandwelcome",
+          "title": "Hello and Welcome",
+          "description": "An illustration of Aex from <a href=\"/Vacant/\">VACANT</a>.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "furiosa": {
+          "slug": "furiosa",
+          "title": "Furiosa",
+          "description": "An illustration of Furiosa from Mad Max: Fury Road.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
         "evelyna": {
           "slug": "evelyna",
           "title": "Evelyna",
@@ -225,6 +252,9 @@
       "sections": [
         {
           "images": [
+            "handsomejack",
+            "helloandwelcome",
+            "furiosa",
             "elisadoingyoga",
             "elisawriting",
             "theforgottenone",
@@ -580,6 +610,15 @@
     },
     "concept": {
       "images": {
+        "grannyjo": {
+          "slug": "grannyjo",
+          "title": "Granny Jo character concept",
+          "description": "",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
         "femalecharacterconcepts": {
           "slug": "femalecharacterconcepts",
           "title": "Female Character Concepts",
@@ -650,6 +689,7 @@
       "sections": [
         {
           "images": [
+            "grannyjo",
             "femalecharacterconcepts",
             "raptureconcepts",
             "wintercostumes",
