@@ -17,7 +17,19 @@ body {
 
 @media (max-width: 767px) {
   #container, #header {
-    width: auto;
+    width: 100%;
+  }
+
+  #header h1 {
+    font-size: 16px;
+  }
+
+  #menu >div {
+    font-size: 12px;
+  }
+
+  body.showcase #pictures >div.section h3 {
+    font-size: 14px;
   }
 
   body.showcase #pictures #a #img {
@@ -29,17 +41,53 @@ body {
   #container, #header {
     width: 660px; /* 3 columns */
   }
+
+  #header h1 {
+    font-size: 24px;
+  }
+
+  #menu >div {
+    font-size: 14px;
+  }
+
+  body.showcase #pictures >div.section h3 {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
   #container, #header {
     width: 880px; /* 4 columns */
   }
+
+  #header h1 {
+    font-size: 32px;
+  }
+
+  #menu >div {
+    font-size: 16px;
+  }
+
+  body.showcase #pictures >div.section h3 {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
   #container, #header {
     width: 1100px; /* 5 columns */
+  }
+
+  #header h1 {
+    font-size: 36px;
+  }
+
+  #menu >div {
+    font-size: 16px;
+  }
+
+  body.showcase #pictures >div.section h3 {
+    font-size: 20px;
   }
 }
 
@@ -62,7 +110,7 @@ body {
 
 #header h1 {
   color: #999999;
-  font-size: 32px;
+  /* font-size: 32px; */
   text-transform: uppercase;
   padding: .5em;
   margin: 0;
@@ -114,7 +162,7 @@ body {
 #menu {
   background-color: #585858;
   border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
+  /* border-bottom: 4px solid #000000; */
 }
 
 #menu >div {
@@ -122,7 +170,6 @@ body {
   box-sizing: border-box;
   color: #ffffff;
   padding: 9px;
-  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -221,22 +268,18 @@ body.image #content {
 /*
  * Showcase pages
  */
-body.showcase #header {
-  position: fixed;
-}
-
-body.showcase #content {
-  top: 202px;
-}
 
 .showcase #pictures {
-  padding-top: 2px;
   padding-bottom: 2px;
 }
 
 .showcase #pictures a {
   color: #9aadb3;
   text-decoration: none;
+}
+
+.showcase #pictures >div.section {
+  padding-bottom: 1.5em;
 }
 
 .showcase #pictures a:hover {
@@ -311,4 +354,10 @@ body.showcase #content {
 .showcase #pictures .col-lg-11,
 .showcase #pictures .col-lg-12 {
   padding: 2px;
+}
+
+.showcase #pictures >div:nth-child(even).section {
+  background: #0D0D0D;
+  width: 100%;
+  display: inline-block;
 }
