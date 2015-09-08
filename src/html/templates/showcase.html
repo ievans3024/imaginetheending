@@ -1,6 +1,6 @@
           <div id="{{ view_id }}" class="showcase">
             <div id="pictures" class="row">
-              <div ng-repeat="section in showcase.sections">
+              <div class="col-xs-12" ng-class="{'section': section.title}" ng-repeat="section in showcase.sections">
                 <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="section.title" ng-bind-html="section.title"></h3>
                 <a class="{{ 'col-xs-' + section.col_widths.xs }} {{ 'col-sm-' + section.col_widths.sm }} {{ 'col-md-' + section.col_widths.md }} {{ 'col-lg-' + section.col_widths.lg }}"
                     ng-href="#{{ showcase.slug }}/{{ section.slug ? section.slug + '/' : ''}}{{ image }}/"

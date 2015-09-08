@@ -33,7 +33,7 @@
             </div>
         </div>
         <div id="menu" class="row" ng-controller="menu">
-          <div ng-repeat="showcase in menu_order" class="col-xs-6 col-sm-{{ menu_cols | number:0 }} col-md-{{ menu_cols | number:0 }} col-lg-{{ menu_cols | number:0 }}">
+          <div ng-repeat="showcase in menu_order" ng-class="['col-xs-6', 'col-sm-' + menu_cols, 'col-md-' + menu_cols, 'col-lg-' + menu_cols]">
             <span ng-if="!is_image && showcase === current_showcase" ng-bind="showcases[showcase].title"></span>
             <a ng-if="is_image || showcase !== current_showcase" ng-href="#{{ showcases[showcase].slug }}/" ng-bind="showcases[showcase].title"></a>
           </div>
