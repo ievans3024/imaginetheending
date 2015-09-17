@@ -2,6 +2,15 @@
   "showcases": {
     "illustration": {
       "images": {
+        "scott": {
+          "slug": "scott",
+          "title": "A New Character",
+          "description": "Quick painting of a new character.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
         "handsomejack": {
           "slug": "handsomejack",
           "title": "Handsome Jack",
@@ -252,6 +261,7 @@
       "sections": [
         {
           "images": [
+            "scott",
             "handsomejack",
             "helloandwelcome",
             "furiosa",
@@ -338,10 +348,10 @@
       "sections": [
         {
           "images": [
-            "scene04",
-            "scene03",
+            "scene01",
             "scene02",
-            "scene01"
+            "scene03",
+            "scene04"
           ],
           "slug": "",
           "col_widths": {
