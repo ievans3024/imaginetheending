@@ -17,9 +17,14 @@ module.exports = function (grunt) {
       }
     },
     copy: {
-      main: {
+      default: {
         files: [
           {expand: true, cwd: path.join('src', 'html'), src: ['**'], dest: 'dist/'},
+          {expand: true, cwd: path.join('src', 'json'), src: ['*.json'], dest: 'dist/'}
+        ]
+      },
+      json: {
+        files: [
           {expand: true, cwd: path.join('src', 'json'), src: ['*.json'], dest: 'dist/'}
         ]
       }
@@ -61,6 +66,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-json-minify');
 
-  grunt.registerTask('default', ['copy', 'less', 'json-minify', 'concat', 'uglify', 'clean']);
+  grunt.registerTask('default', ['copy:default', 'less', 'json-minify', 'concat', 'uglify', 'clean']);
+  grunt.registerTask('json', ['copy:json', 'json-minify'])
 
 };

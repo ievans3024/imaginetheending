@@ -2,6 +2,33 @@
   "showcases": {
     "illustration": {
       "images": {
+        "victoria": {
+          "slug": "victoria",
+          "title": "Victoria",
+          "description": "An illustration of Victoria from Life is Strange.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "chloe": {
+          "slug": "chloe",
+          "title": "Chloe",
+          "description": "An illustration of Chloe from Life is Strange.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "innerdemon": {
+          "slug": "innerdemon",
+          "title": "Inner Demon",
+          "description": "An illustration of Handsome Jack from the Borderlands series.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
         "scott": {
           "slug": "scott",
           "title": "A New Character",
@@ -261,6 +288,9 @@
       "sections": [
         {
           "images": [
+            "victoria",
+            "chloe",
+            "innerdemon",
             "scott",
             "handsomejack",
             "helloandwelcome",
@@ -368,6 +398,33 @@
     },
     "sequential": {
       "images": {
+        "PA01": {
+          "slug": "PA01",
+          "title": "Pretty Angel 01",
+          "description": "A fan made comic of some of the characters from the Borderlands series by Gearbox Software.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "PA02": {
+          "slug": "PA02",
+          "title": "Pretty Angel 02",
+          "description": "A fan made comic of some of the characters from the Borderlands series by Gearbox Software.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
+        "PA03": {
+          "slug": "PA03",
+          "title": "Pretty Angel 03",
+          "description": "A fan made comic of some of the characters from the Borderlands series by Gearbox Software.",
+          "buy_link": {
+            "uri": "",
+            "prompt": ""
+          }
+        },
         "MP03": {
           "slug": "MP03",
           "title": "Missing Pieces Page 03",
@@ -544,6 +601,22 @@
       "title": "Sequential Art",
       "description": "Sequential pages/strips by Heather Nunnelly.",
       "sections": [
+        {
+          "images": [
+            "PA01",
+            "PA02",
+            "PA03"
+          ],
+          "slug": "prettyangel",
+          "col_widths": {
+            "md": 3,
+            "xs": 3,
+            "lg": 2,
+            "sm": 3
+          },
+          "title": "Pretty Angel",
+          "large_thumbs": false
+        },
         {
           "images": [
             "I06P29",
